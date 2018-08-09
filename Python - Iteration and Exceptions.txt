@@ -1,0 +1,76 @@
+odd = [num for num in range(10) if num % 2]
+even = [num for num in range(10) if not int(num) % 2]
+alphabet = [chr(ordinal) for ordinal in range(ord('A'), ord('z')+1) if chr(ordinal).isalpha()]
+
+
+matrix_add = [[matrix_b[row][col] + matrix_a[row][col] for col in cols] for row in rows]
+from pprint import PrettyPrinter
+pp = PrettyPrinter()
+pp.pprint(matrix_add)
+
+rows = cols = range(1,10)
+mult_table = [[row * col for col in cols] for row in rows]
+pp.pprintmult_table)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
