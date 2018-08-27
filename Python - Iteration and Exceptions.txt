@@ -13,6 +13,9 @@ mult_table = [[row * col for col in cols] for row in rows]
 pp.pprintmult_table)
 
 
+implicit and explicit exception
+
+
 
 
 
